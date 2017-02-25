@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">最美天气</string>
+    <string name="addcity">添加城市</string>
+    <string name="deletecity">删除城市</string>
+    <string name="wendu">阴天\n25/10</string>
+    <string name="xing">周二</string>
+    <string name="lowest">lowest: 10</string>
+    <string name="highest">highest: 20</string>
+    <string name="info_left">北京\n\n周一\n\n晴天</string>
+    <string name="info_right">轻度污染\n\n还行\n\n湿度</string>
+    <string name="manage">管理城市</string>
+    <string name="search">搜索</string>
+</resources>

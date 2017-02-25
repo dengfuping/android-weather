@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    android:divider="@drawable/linear_layout_divider"
+    android:showDividers="middle"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/manage"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/city_listview"
+        android:layout_weight="1"
+        android:divider="@color/grey"
+        android:dividerHeight="1px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_city_button"
+            android:text="@string/addcity"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/delete_city_button"
+            android:text="@string/deletecity"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+
